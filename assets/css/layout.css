@@ -39,8 +39,25 @@
 .seacthWidth{
     width: 400px;
 }
+.amount{
+    padding-bottom: 30px;
+}
+
 /* ---------------------
-** Subcription CSS
+** Categories
+---------------------- */
+.categorieHover a{
+    text-decoration: none;
+}
+.categorieHover h1{
+    transition: 0.3s ease;
+}
+.categorieHover:hover h1{
+    font-size: 2.8rem;
+}
+
+/* ---------------------
+** Subcription
 ---------------------- */
 .subcription{
     height: 300px;
@@ -57,7 +74,7 @@
     border-radius: 5px;
 }
 /* ---------------------
-** Footer CSS
+** Footer
 ---------------------- */
 footer{
     background-color: #0A0826;
